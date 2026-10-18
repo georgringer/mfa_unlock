@@ -1,0 +1,36 @@
+{
+	"name": "georgringer/mfa-unlock",
+	"type": "typo3-cms-extension",
+	"description": "Unlock locked MFA providers of backend users: new view in the backend user module and a CLI command",
+	"license": [
+		"GPL-2.0-or-later"
+	],
+	"authors": [
+		{
+			"name": "Georg Ringer",
+			"email": "mail@ringer.it"
+		}
+	],
+	"require": {
+		"php": ">= 8.2",
+		"typo3/cms-backend": "^14.0 || ^15.0 || 15.0.*@dev",
+		"typo3/cms-beuser": "^14.0 || ^15.0 || 15.0.*@dev",
+		"typo3/cms-core": "^14.0 || ^15.0 || 15.0.*@dev"
+	},
+	"autoload": {
+		"psr-4": {
+			"GeorgRinger\\MfaUnlock\\": "Classes/"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "mfa_unlock",
+			"version": "0.1.0",
+			"Package": {
+				"providesPackages": {}
+			}
+		}
+	}
+}

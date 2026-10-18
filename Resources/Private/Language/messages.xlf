@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:mfa_unlock/Resources/Private/Language/messages.xlf" date="2026-10-18T12:00:00Z" product-name="mfa_unlock">
+    <header/>
+    <body>
+      <trans-unit id="title">
+        <source>MFA: locked backend users</source>
+      </trans-unit>
+      <trans-unit id="empty">
+        <source>No backend user has a locked MFA provider.</source>
+      </trans-unit>
+      <trans-unit id="column.uid">
+        <source>UID</source>
+      </trans-unit>
+      <trans-unit id="column.username">
+        <source>Username</source>
+      </trans-unit>
+      <trans-unit id="column.name">
+        <source>Name</source>
+      </trans-unit>
+      <trans-unit id="column.providers">
+        <source>Locked providers</source>
+      </trans-unit>
+      <trans-unit id="disabled">
+        <source>disabled</source>
+      </trans-unit>
+      <trans-unit id="unlock">
+        <source>Unlock</source>
+      </trans-unit>
+      <trans-unit id="unlockAll">
+        <source>Unlock all</source>
+      </trans-unit>
+      <trans-unit id="dropdown.label">
+        <source>MFA unlock</source>
+      </trans-unit>
+      <trans-unit id="flash.unlocked.title">
+        <source>MFA unlocked</source>
+      </trans-unit>
+      <trans-unit id="flash.unlocked.message">
+        <source>Unlocked %d backend user(s).</source>
+      </trans-unit>
+      <trans-unit id="flash.nothing.title">
+        <source>Nothing to unlock</source>
+      </trans-unit>
+      <trans-unit id="flash.nothing.message">
+        <source>The MFA provider is not locked.</source>
+      </trans-unit>
+      <trans-unit id="flash.invalidToken.title">
+        <source>Request not accepted</source>
+      </trans-unit>
+      <trans-unit id="flash.invalidToken.message">
+        <source>The request token is missing or invalid, please try again.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

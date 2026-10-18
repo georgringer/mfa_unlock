@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:mfa_unlock/Resources/Private/Language/module.xlf" date="2026-10-18T12:00:00Z" product-name="mfa_unlock">
+    <header/>
+    <body>
+      <trans-unit id="title">
+        <source>MFA unlock</source>
+      </trans-unit>
+      <trans-unit id="short_description">
+        <source>Backend users with a locked MFA provider</source>
+      </trans-unit>
+      <trans-unit id="description">
+        <source>Lists backend users whose MFA provider is locked and unlocks them.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
